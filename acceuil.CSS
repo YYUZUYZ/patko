@@ -1,0 +1,33 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.accueil {
+    height: 100%;
+    width: 100%;
+    background: url(/acceuil/image/can\ 2024.jpg);
+    background-repeat: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.accueil h1 {
+    font-size: 100px;
+    margin-bottom: 450px;
+}
+
+/* leader */
+
+loader {
+    position: absolute;
+}
